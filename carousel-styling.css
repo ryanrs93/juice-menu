@@ -1,0 +1,25 @@
+.carousel-item img {
+    height: auto; /* Set the height for the images */
+    width: auto; /* Set the width to auto to maintain the aspect ratio */
+    margin: 0 auto; /* Center the images */
+  }
+  
+  @media (min-width: 767px) {
+    .carousel-item img {
+      max-height: 600px; /* Decrease the maximum height for smaller screens */
+      max-width: 550px;
+    }
+  }
+  
+
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color:lightgray;
+    border-color: white;
+  }
+  
+  .carousel-caption h5,
+.carousel-caption p {
+  color: black;
+}
